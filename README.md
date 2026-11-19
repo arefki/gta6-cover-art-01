@@ -1,8 +1,8 @@
 # gta6-cover-art-01-entry
 
 [![make.fun · gta6-cover-art-01](https://make.fun/badge/gta6-cover-art-01.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
-[![rank](https://make.fun/badge/gta6-cover-art-01/arefki/gta6-cover-art-01-entry/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
-[![reward](https://make.fun/badge/gta6-cover-art-01/arefki/gta6-cover-art-01-entry/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
+[![rank](https://make.fun/badge/gta6-cover-art-01/arefki/gta6-cover-art-01/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
+[![reward](https://make.fun/badge/gta6-cover-art-01/arefki/gta6-cover-art-01/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 
 **Leonida Cover Studio** — turn your photo and a caption into original GTA-style cover art, exported as a PNG. A seeded nine-panel comic grid with a Vice City sunset grade: a helicopter always top-left, an original duo as the hero, a procedural scene library (skyline, beach, speedboat + flamingo, neon supercar, alligator swamp, seaplane, ferris wheel, biker, art-deco facade, neon street), bold gradient lettering, and your own photo stylised into the Cover Star panel. Three layouts (Classic Collage, Key Art Poster, Wallpaper), five sunset palettes, and PNG export in 1080×1080, 1080×1350 and 1920×1080.
 
