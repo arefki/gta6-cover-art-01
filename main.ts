@@ -12,7 +12,7 @@
 // Outside the grader, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-app.ts';
@@ -29,8 +29,9 @@ const DOSSIER_CAPS = {
 };
 
 function handIn(repoRoot, outDir) {
-  // Start clean so a stale file from an earlier run can never leak in.
-  rmSync(outDir, { recursive: true, force: true });
+  // The grader gives a fresh empty /output each run; never remove the
+  // output directory itself — its parent is read-only in the grader and
+  // rmSync would throw EACCES/EROFS (exit 1). Just ensure it exists.
   mkdirSync(outDir, { recursive: true });
 
   // The app: plain static files, served by any static HTTP server.
